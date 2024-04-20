@@ -2,6 +2,8 @@
 This file provides an minor adaptation to the sklearn OneVsRestClassifier that can work with a list of differently configured estimators.
 The standard implementation of OneVsRestClassifier uses a single estimator and copies it for every class.
 Metadata routing has also been adapted, so different metadata can be routed to each estimator.
+
+note: last used with sklearn 1.4.2
 """
 
 from sklearn.multiclass import OneVsRestClassifier

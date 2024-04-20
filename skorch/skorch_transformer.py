@@ -2,6 +2,8 @@
 This file provides functionality for using a model from the Huggingface transformers package with skorch.
 This is based on the following page in the skorch documentation: https://skorch.readthedocs.io/en/latest/user/huggingface.html
 And the associated tutorial notebook: https://nbviewer.org/github/skorch-dev/skorch/blob/master/notebooks/Hugging_Face_Finetuning.ipynb
+
+note: last used with skorch 0.15.0
 """
 
 import torch
